@@ -1,0 +1,388 @@
+body{
+	background-color: #FFA07A;
+    margin-left:1.5em;
+}
+header{
+	text-align: center;
+}
+
+footer{
+    margin-top: 2em;
+    
+	text-align: center;
+}
+#formularioEmp input{
+
+	background-color: #fa8072;
+	min-width: 13em;
+	margin-top: 5px;
+	
+
+}
+
+#pie{
+	float: left;
+	display: inline;
+}
+#pie2{
+	float: right;
+	display: inline;
+}
+
+.cancelarModCliente{
+	display: inline;
+	float: right;
+}
+
+.Datoscatalogo, #Datoscatalogo{
+	float: left;
+	width: 75%;
+}
+
+#botonesCatalogo{
+	float: right;
+	width:250px;
+	outline: none;
+}
+
+#borrarCat{
+	background: url('Papelera.png') no-repeat; 
+	border:0px;
+}
+
+#actPrecio{
+	background: url('editar.png') no-repeat; 
+	border:0px;
+}
+
+#enlaces{
+    margin-left: 1.5em;
+}
+
+.catalogo, #compra, #InsertarVentas, #InsertarCompras,#filtro{
+
+margin-left: 1.5em;
+}
+
+#venta,#compra{
+    margin-left: 1.5em;
+    margin:1em;
+}
+
+#formulario{
+    margin-left: 1.5em;
+}
+
+ul {
+    list-style-type:none;
+    margin:1.5em;
+    padding:2em;
+ 	display:flex;
+
+}
+
+li { flex-grow: 1; }
+#mainNav {
+    background: linear-gradient(to left, White 20%, rgba(0,0,0,0) 100%);
+    display:block;
+    padding:0.5em;
+    border: 1px solid Green;
+    border-radius: 24px;
+    text-align:center;
+    margin-bottom:0.2em;
+    padding:1em;
+    text-decoration:none;
+    color:#000000;
+    cursor: pointer;
+
+
+}
+
+.mainNav:hover {
+    background-color: #3e8e41;
+}
+#videoYT{
+	margin-top: 67px;
+	box-sizing: border-box;
+	height: 300px;
+	width: 500px;
+	margin-left: 70px;
+
+}
+
+#streetView{
+	padding-left: 40px;
+
+
+}
+
+
+
+
+#Bienvenido{
+	text-align: center;
+	box-sizing: border-box;
+	
+
+
+}
+#BotonIniciaSesion, #logCliente, #ClienteLogeado{
+	margin-top: 15px;
+	margin-left: 70px;
+
+}
+
+#form1{
+	display: inline;
+}
+
+
+
+
+#inicia, #ErrorCliente, #erroresDetalles, #erroresConsultaEmp{
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	margin-bottom: 1em;
+	font-weight: bold;
+
+	
+}
+#ModTuPerfil, #logeaCliente{
+	display: inline;
+	
+}
+ #EmpleadoLogeado{
+	text-align: center;
+}
+
+#LogOutCliente{
+	
+	box-sizing: border-box;
+	margin-top: 24px;
+	margin-right: 24em;
+
+
+}
+
+a:hover {background-color:#CFC; }
+/* Para smartphones: */
+			[class*="col-"] {
+				float:left;
+				width: 100%;
+
+			}
+				
+			
+			/* Para Tablets: */
+			@media only screen and (min-width: 600px) {
+				.col-tab-1 {width: 10%;}
+				.col-tab-2 {width: 20%;}
+				.col-tab-3 {width: 30%;}
+				.col-tab-4 {width: 40%;}
+				.col-tab-5 {width: 50%;}
+				.col-tab-6 {width: 60%;}
+				.col-tab-7 {width: 70%;}
+				.col-tab-8 {width: 80%;}
+				.col-tab-9 {width: 90%;}
+				.col-tab-10 {width: 100%;}
+
+			}
+			
+			/* Para escritorio: */
+			@media only screen and (min-width: 768px) {
+				.col-1 {width: 10%;}
+				.col-2 {width: 20%;}
+				.col-3 {width: 30%;}
+				.col-4 {width: 40%;}
+				.col-5 {width: 50%;}
+				.col-6 {width: 60%;}
+				.col-7 {width: 70%;}
+				.col-8 {width: 80%;}
+				.col-9 {width: 90%;}
+				.col-10 {width: 100%;}
+			}
+
+
+#IniciaSesionEmpleado{
+	text-align: center;
+}
+
+
+#ErrorEmpleado{
+	font-size: 3em;
+	
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+
+}
+#tablaRedondeada {
+	border-radius: 81px 81px 81px 81px;
+	-moz-border-radius: 81px 81px 81px 81px;
+	-webkit-border-radius: 81px 81px 81px 81px;
+	border: 0px solid #fa8072;
+	background-color: #e9967a;
+	width: 120%;
+	text-align: center;
+	border-width: thin;
+}
+#insertDetVenta, #insertDetCompra{
+	margin-top: 16px;
+	margin-left: 10%;
+}
+#tablaRedondeadaForm {
+	border-radius: 81px 81px 81px 81px;
+	-moz-border-radius: 81px 81px 81px 81px;
+	-webkit-border-radius: 81px 81px 81px 81px;
+	border: 0px solid #fa8072;
+	background-color: #a52a2a;
+	width: 40%;
+
+	text-align: center;
+	border-width: thin;
+}
+#accionDetalleVenta, #accionDetalleCompra{
+	display: inline;
+	text-align: right;
+
+	
+
+}
+#DatosDetallesVenta, #DatosDetCom{
+display: inline;
+
+
+}
+#DetallesVenta, #DetallesCompra{
+	margin-top: 16px;
+	padding-top: 8px;
+	margin-left: 10%;
+	background-color: #a52a2a;
+	border: 3px solid #000000;
+	padding-left: 10px;
+	min-height: 63px;
+	font-weight: bolder;
+
+}
+
+#nombreApeEmp{
+	font-weight: bolder;
+	display: inline;
+	font-size: 1.17em;
+	font-variant: small-caps; /* Letras versales */
+}
+#filaEmpleado{
+	margin-bottom: 1.8px;
+
+	border-bottom:2.5px solid black;
+}
+#fechasEmpleado p, #salarioEmpleado p{
+	margin: 0;
+}
+#botonesEmpleado {
+
+margin-top: 0.25em;
+margin-bottom: 0.25em;
+
+}
+#botonesEmpleado button{
+min-width: 10em;
+float: right;
+margin-right: 2em;
+
+}
+#soloDatos{
+	padding-top: 0.9em;
+	float: left;
+
+}
+#filtroFechas input{
+	min-width: 149.3px;
+
+
+}
+#cancelaFiltro, #filtroFechas{
+	display: inline;
+}
+
+.Datoscatalogo{
+	float: left; /* Los datos del libro siempre aparecer�n ajustados a la izquierda */
+	width: 75%;  
+}
+.catalogo{
+	clear: both;
+	border-bottom:2px solid #fa8072;  /* tlbr no tiene ning�n valor */
+}
+
+
+
+.botonLogout {
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff1212;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.botonLogout:hover {
+   background: #b00707 ;
+  text-decoration: none;
+}
+
+button:not(.botonExcluido) {
+    background-color:  #ff7070;
+    border: thin ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+.botonIniciaSesiconCliente{
+	 background-color:  #ff7070;
+    border: thin ;
+    color: white;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+
+
+}
+
+.botonIniciaSesion{
+	text-align: center;
+	margin-right: 100px;
+}
+
+#textoPie{
+	margin-top: 170px;
+	margin-bottom: 1px;
+}
+
+.botonMod{
+
+}
+
+.botonEliminarDetalle{
+	padding-right: 100px;
+	margin-right: 50px;
+	position: relative;
+}
+
+#botonesVenta button, #tablaRedondeadaForm button, #accionDetalleVenta button{
+	padding: 5px;
+}
